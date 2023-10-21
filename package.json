@@ -1,0 +1,14 @@
+{
+  "name": "learning-bun",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun --watch run index.js"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "5.0.0"
+  }
+}
